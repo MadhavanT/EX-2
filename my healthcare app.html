@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>MY HEALTHCARE APP</title>
+    <link rel="stylesheet" href="My healthcare app.css" />
+    <style>
+      .boxContainer{
+        margin: auto;
+        margin-top: 20%;
+        position: relative;
+        width: 600px;
+        height: 50px;
+        border: 4px solid #000000;
+        padding: 0px 10px;
+        border-radius: 50px; ;
+      
+      }
+      .elementsContainer{
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+      }
+      .search{
+        border: none;
+        height: 100%;
+        width: 100%;
+        padding: 0px 5px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-family: "Nunito";
+        color: #424242;
+        font-weight: 500;
+
+      }
+      .search:focus{
+        outline: none;
+      }
+      .material-icons
+      {
+        font-size: 26;
+        color: #2980b9;
+      }
+    </style>
+</head>
+<body>
+  
+    
+    <div class="menu-bar">
+        <h1 class="logo">MY HEALTH<span>CARE</span></h1>
+        
+        <ul>
+          <li><a href="hospital.html">Hospitals</a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Childrens Hospital</a></li>
+                <li><a href="#">Cardiac Hospital</a></li>
+                <li>
+                  <a href="#">Womens Hospital<i class="fas fa-caret-right"></i></a>
+                  <div class="dropdown-menu-1"></div>
+                </li>
+                <li><a href="#">Cancer Treatment Center</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="Doctors.html">Doctors</a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Cardiologist</a></li>
+                <li><a href="#"> Oncologist</a></li>
+                <li>
+                  <a href="#">Psychiatrist<i class="fas fa-caret-right"></i></a>
+                  <div class="dropdown-menu-1"></div>
+                </li>
+                <li><a href="#">Neurologist</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="clinics.html">Clinics <i class="fas fa-caret-down"></i></a>
+             <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="#">Primary Care</a></li>
+                    <li><a href="#">Specialized Clinic</a></li>
+                    <li>
+                      <a href="#">Dialysis<i class="fas fa-caret-right"></i></a>
+                      <div class="dropdown-menu-1"></div>
+                    </li>
+                    <li><a href="#">Mental Health</a></li>
+                  </ul>
+                </div>
+          </li>
+          
+          <li><a href="#">Blog</a>
+          </li>
+          <li><a href="./healthcare contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        &nbsp;
+      </div>
+      <div class="boxContainer">
+        <table class="elementsContainer">
+          <tr>
+            <td>
+              <input type="text" placeholder="Search Specialities/Doctors"
+              class="search">
+            </td>
+            <td>
+              <a href="#">
+                <i class="material-icons">Search</i>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <style>
+        body {
+          background-image: url('https://imageio.forbes.com/specials-images/imageserve/557848426/960x0.jpg?format=jpg&width=960');
+          background-repeat: no-repeat;
+         
+          background-size: cover;
+        }
+        </style>
+</body>
+</html>
